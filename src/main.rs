@@ -4,6 +4,8 @@ use std::fs;
 use std::fs::File;
 use std::io::Write;
 
+//FIELD, CHOICE, SEQ, SYMBOL, REPEAT, REPEAT1, STRING, PATTERN, PREC, PREC_RIGHT, PREC_LEFT, BLANK
+
 fn rule_to_sequence(rule: &JsonValue) -> Sequence {
     let mut seq = Sequence::default();
     if rule["type"] == "SYMBOL" {
