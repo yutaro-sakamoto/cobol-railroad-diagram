@@ -9,6 +9,7 @@ build = "build.rs"
 [dependencies]
 railroad = "0.1.1"
 lalrpop-util = {version = "0.19.7", features = ["lexer"]}
+json = "0.12.4"
 
 [build-dependencies]
 lalrpop = "0.19.7"
