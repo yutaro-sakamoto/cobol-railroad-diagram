@@ -1,0 +1,3 @@
+[submodule "tree-sitter-cobol"]
+	path = tree-sitter-cobol
+	url = git@github.com:yutaro-sakamoto/tree-sitter-cobol.git
