@@ -1,0 +1,8 @@
+
+grammar;
+
+pub Start: i32 = {
+    r"[0-9]" 
+    =>
+    1
+}
