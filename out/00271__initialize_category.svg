@@ -1,0 +1,97 @@
+<svg class="railroad" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+
+    svg.railroad {
+        background-color: hsl(30, 20%, 95%);
+        background-size: 15px 15px;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, .05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 30, 30, .05) 1px, transparent 1px);
+    }
+
+    svg.railroad path {
+        stroke-width: 3px;
+        stroke: black;
+        fill: transparent;
+    }
+
+    svg.railroad .debug {
+        stroke-width: 1px;
+        stroke: red;
+    }
+
+    svg.railroad text {
+        font: 14px monospace;
+        text-anchor: middle;
+    }
+
+    svg.railroad .nonterminal text {
+        font-weight: bold;
+    }
+
+    svg.railroad text.comment {
+        font: italic 12px monospace;
+    }
+
+    svg.railroad rect {
+        stroke-width: 3px;
+        stroke: black;
+        fill:hsl(-290, 70%, 90%);
+    }
+
+    svg.railroad g.labeledbox > rect {
+        stroke-width: 1px;
+        stroke: grey;
+        stroke-dasharray: 5px;
+        fill:rgba(90, 90, 150, .1);
+    }</style>
+<g class="choice">
+<path d=" M 10 21 h 24 m 100 0 h 96 m -45 0 l -5 -5 m 0 10 l 5 -5 m 45 0"/>
+<g class="nonterminal">
+<rect height="22" width="100" x="34" y="10"/>
+<text x="84" y="26">
+ALPHABETIC</text>
+</g>
+<path d=" M 10 21 a 12 12 0 0 1 12 12 v 9 m 196 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 22 42 v 33 m 196 0 v -33"/>
+<path d=" M 22 75 v 33 m 196 0 v -33"/>
+<path d=" M 22 108 v 33 m 196 0 v -33"/>
+<path d=" M 22 141 v 33 m 196 0 v -33"/>
+<path d=" M 22 174 v 33 m 196 0 v -33"/>
+<path d=" M 22 42 v 0 a 12 12 0 0 0 12 12 m 116 0 h 56 m -25 0 l -5 -5 m 0 10 l 5 -5 m 25 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="116" x="34" y="43"/>
+<text x="92" y="59">
+ALPHANUMERIC</text>
+</g>
+<path d=" M 22 75 v 0 a 12 12 0 0 0 12 12 m 76 0 h 96 m -45 0 l -5 -5 m 0 10 l 5 -5 m 45 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="76" x="34" y="76"/>
+<text x="72" y="92">
+NUMERIC</text>
+</g>
+<path d=" M 22 108 v 0 a 12 12 0 0 0 12 12 m 172 0 h 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="172" x="34" y="109"/>
+<text x="120" y="125">
+ALPHANUMERIC_EDITED</text>
+</g>
+<path d=" M 22 141 v 0 a 12 12 0 0 0 12 12 m 132 0 h 40 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="132" x="34" y="142"/>
+<text x="100" y="158">
+NUMERIC_EDITED</text>
+</g>
+<path d=" M 22 174 v 0 a 12 12 0 0 0 12 12 m 84 0 h 88 m -41 0 l -5 -5 m 0 10 l 5 -5 m 41 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="84" x="34" y="175"/>
+<text x="76" y="191">
+NATIONAL</text>
+</g>
+<path d=" M 22 207 v 0 a 12 12 0 0 0 12 12 m 140 0 h 32 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="140" x="34" y="208"/>
+<text x="104" y="224">
+NATIONAL_EDITED</text>
+</g>
+</g>
+</svg>

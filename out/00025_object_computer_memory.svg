@@ -1,0 +1,94 @@
+<svg class="railroad" viewBox="0 0 512 75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+
+    svg.railroad {
+        background-color: hsl(30, 20%, 95%);
+        background-size: 15px 15px;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, .05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 30, 30, .05) 1px, transparent 1px);
+    }
+
+    svg.railroad path {
+        stroke-width: 3px;
+        stroke: black;
+        fill: transparent;
+    }
+
+    svg.railroad .debug {
+        stroke-width: 1px;
+        stroke: red;
+    }
+
+    svg.railroad text {
+        font: 14px monospace;
+        text-anchor: middle;
+    }
+
+    svg.railroad .nonterminal text {
+        font-weight: bold;
+    }
+
+    svg.railroad text.comment {
+        font: italic 12px monospace;
+    }
+
+    svg.railroad rect {
+        stroke-width: 3px;
+        stroke: black;
+        fill:hsl(-290, 70%, 90%);
+    }
+
+    svg.railroad g.labeledbox > rect {
+        stroke-width: 1px;
+        stroke: grey;
+        stroke-dasharray: 5px;
+        fill:rgba(90, 90, 150, .1);
+    }</style>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="76" x="10" y="10"/>
+<text x="48" y="26">
+_MEMORY</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="60" x="96" y="10"/>
+<text x="126" y="26">
+_SIZE</text>
+</g>
+<g class="choice">
+<path d=" M 166 21 h 24 m 44 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="44" x="190" y="10"/>
+<text x="212" y="26">
+_IS</text>
+</g>
+<path d=" M 166 21 a 12 12 0 0 1 12 12 v 9 m 68 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 178 42 v 0 a 12 12 0 0 0 12 12 m 0 0 h 44 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<g class="nonterminal">
+<rect height="22" width="76" x="268" y="10"/>
+<text x="306" y="26">
+integer</text>
+</g>
+<g class="choice">
+<path d=" M 354 21 h 24 m 100 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="100" x="378" y="10"/>
+<text x="428" y="26">
+CHARACTERS</text>
+</g>
+<path d=" M 354 21 a 12 12 0 0 1 12 12 v 9 m 124 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 366 42 v 0 a 12 12 0 0 0 12 12 m 60 0 h 40 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="60" x="378" y="43"/>
+<text x="408" y="59">
+WORDS</text>
+</g>
+</g>
+<path d=" M 86 21 h 10"/>
+<path d=" M 156 21 h 10"/>
+<path d=" M 258 21 h 10"/>
+<path d=" M 344 21 h 10"/>
+</g>
+</svg>

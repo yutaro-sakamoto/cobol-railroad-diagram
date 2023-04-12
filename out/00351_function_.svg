@@ -1,0 +1,458 @@
+<svg class="railroad" viewBox="0 0 702 647" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+
+    svg.railroad {
+        background-color: hsl(30, 20%, 95%);
+        background-size: 15px 15px;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, .05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 30, 30, .05) 1px, transparent 1px);
+    }
+
+    svg.railroad path {
+        stroke-width: 3px;
+        stroke: black;
+        fill: transparent;
+    }
+
+    svg.railroad .debug {
+        stroke-width: 1px;
+        stroke: red;
+    }
+
+    svg.railroad text {
+        font: 14px monospace;
+        text-anchor: middle;
+    }
+
+    svg.railroad .nonterminal text {
+        font-weight: bold;
+    }
+
+    svg.railroad text.comment {
+        font: italic 12px monospace;
+    }
+
+    svg.railroad rect {
+        stroke-width: 3px;
+        stroke: black;
+        fill:hsl(-290, 70%, 90%);
+    }
+
+    svg.railroad g.labeledbox > rect {
+        stroke-width: 1px;
+        stroke: grey;
+        stroke-dasharray: 5px;
+        fill:rgba(90, 90, 150, .1);
+    }</style>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="92" x="10" y="10"/>
+<text x="56" y="26">
+_FUNCTION</text>
+</g>
+<g class="choice">
+<path d=" M 112 21 h 24 m 322 0 h 234 m -114 0 l -5 -5 m 0 10 l 5 -5 m 114 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="156" x="136" y="10"/>
+<text x="214" y="26">
+CURRENT_DATE_FUNC</text>
+</g>
+<g class="choice">
+<path d=" M 302 21 h 24 m 108 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="108" x="326" y="10"/>
+<text x="380" y="26">
+func_refmod</text>
+</g>
+<path d=" M 302 21 a 12 12 0 0 1 12 12 v 9 m 132 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 314 42 v 0 a 12 12 0 0 0 12 12 m 0 0 h 108 m -51 0 l -5 -5 m 0 10 l 5 -5 m 51 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 292 21 h 10"/>
+</g>
+<path d=" M 112 21 a 12 12 0 0 1 12 12 v 31 m 556 0 v -31 a 12 12 0 0 1 12 -12"/>
+<path d=" M 124 64 v 55 m 0 -24 l -5 -5 m 10 0 l -5 5 m 0 24 m 556 0 v -55 m 0 30 l -5 5 m 10 0 l -5 -5 m 0 -30"/>
+<path d=" M 124 119 v 55 m 0 -24 l -5 -5 m 10 0 l -5 5 m 0 24 m 556 0 v -55 m 0 30 l -5 5 m 10 0 l -5 -5 m 0 -30"/>
+<path d=" M 124 174 v 55 m 0 -24 l -5 -5 m 10 0 l -5 5 m 0 24 m 556 0 v -55 m 0 30 l -5 5 m 10 0 l -5 -5 m 0 -30"/>
+<path d=" M 124 229 v 55 m 0 -24 l -5 -5 m 10 0 l -5 5 m 0 24 m 556 0 v -55 m 0 30 l -5 5 m 10 0 l -5 -5 m 0 -30"/>
+<path d=" M 124 284 v 55 m 0 -24 l -5 -5 m 10 0 l -5 5 m 0 24 m 556 0 v -55 m 0 30 l -5 5 m 10 0 l -5 -5 m 0 -30"/>
+<path d=" M 124 339 v 55 m 0 -24 l -5 -5 m 10 0 l -5 5 m 0 24 m 556 0 v -55 m 0 30 l -5 5 m 10 0 l -5 -5 m 0 -30"/>
+<path d=" M 124 394 v 55 m 0 -24 l -5 -5 m 10 0 l -5 5 m 0 24 m 556 0 v -55 m 0 30 l -5 5 m 10 0 l -5 -5 m 0 -30"/>
+<path d=" M 124 449 v 55 m 0 -24 l -5 -5 m 10 0 l -5 5 m 0 24 m 556 0 v -55 m 0 30 l -5 5 m 10 0 l -5 -5 m 0 -30"/>
+<path d=" M 124 504 v 33 m 556 0 v -33"/>
+<path d=" M 124 537 v 55 m 0 -24 l -5 -5 m 10 0 l -5 5 m 0 24 m 556 0 v -55 m 0 30 l -5 5 m 10 0 l -5 -5 m 0 -30"/>
+<path d=" M 124 64 v 0 a 12 12 0 0 0 12 12 m 330 0 h 202 m -98 0 l -5 -5 m 0 10 l 5 -5 m 98 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="164" x="136" y="65"/>
+<text x="218" y="81">
+WHEN_COMPILED_FUNC</text>
+</g>
+<g class="choice">
+<path d=" M 310 76 h 24 m 108 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="108" x="334" y="65"/>
+<text x="388" y="81">
+func_refmod</text>
+</g>
+<path d=" M 310 76 a 12 12 0 0 1 12 12 v 9 m 132 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 322 97 v 0 a 12 12 0 0 0 12 12 m 0 0 h 108 m -51 0 l -5 -5 m 0 10 l 5 -5 m 51 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 300 76 h 10"/>
+</g>
+<path d=" M 124 119 v 0 a 12 12 0 0 0 12 12 m 444 0 h 88 m -41 0 l -5 -5 m 0 10 l 5 -5 m 41 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="140" x="136" y="120"/>
+<text x="206" y="136">
+UPPER_CASE_FUNC</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="286" y="120"/>
+<text x="300" y="136">
+(</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="52" x="324" y="120"/>
+<text x="350" y="136">
+_exp</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="386" y="120"/>
+<text x="400" y="136">
+)</text>
+</g>
+<g class="choice">
+<path d=" M 424 131 h 24 m 108 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="108" x="448" y="120"/>
+<text x="502" y="136">
+func_refmod</text>
+</g>
+<path d=" M 424 131 a 12 12 0 0 1 12 12 v 9 m 132 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 436 152 v 0 a 12 12 0 0 0 12 12 m 0 0 h 108 m -51 0 l -5 -5 m 0 10 l 5 -5 m 51 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 276 131 h 10"/>
+<path d=" M 314 131 h 10"/>
+<path d=" M 376 131 h 10"/>
+<path d=" M 414 131 h 10"/>
+</g>
+<path d=" M 124 174 v 0 a 12 12 0 0 0 12 12 m 444 0 h 88 m -41 0 l -5 -5 m 0 10 l 5 -5 m 41 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="140" x="136" y="175"/>
+<text x="206" y="191">
+LOWER_CASE_FUNC</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="286" y="175"/>
+<text x="300" y="191">
+(</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="52" x="324" y="175"/>
+<text x="350" y="191">
+_exp</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="386" y="175"/>
+<text x="400" y="191">
+)</text>
+</g>
+<g class="choice">
+<path d=" M 424 186 h 24 m 108 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="108" x="448" y="175"/>
+<text x="502" y="191">
+func_refmod</text>
+</g>
+<path d=" M 424 186 a 12 12 0 0 1 12 12 v 9 m 132 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 436 207 v 0 a 12 12 0 0 0 12 12 m 0 0 h 108 m -51 0 l -5 -5 m 0 10 l 5 -5 m 51 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 276 186 h 10"/>
+<path d=" M 314 186 h 10"/>
+<path d=" M 376 186 h 10"/>
+<path d=" M 414 186 h 10"/>
+</g>
+<path d=" M 124 229 v 0 a 12 12 0 0 0 12 12 m 420 0 h 112 m -53 0 l -5 -5 m 0 10 l 5 -5 m 53 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="116" x="136" y="230"/>
+<text x="194" y="246">
+REVERSE_FUNC</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="262" y="230"/>
+<text x="276" y="246">
+(</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="52" x="300" y="230"/>
+<text x="326" y="246">
+_exp</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="362" y="230"/>
+<text x="376" y="246">
+)</text>
+</g>
+<g class="choice">
+<path d=" M 400 241 h 24 m 108 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="108" x="424" y="230"/>
+<text x="478" y="246">
+func_refmod</text>
+</g>
+<path d=" M 400 241 a 12 12 0 0 1 12 12 v 9 m 132 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 412 262 v 0 a 12 12 0 0 0 12 12 m 0 0 h 108 m -51 0 l -5 -5 m 0 10 l 5 -5 m 51 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 252 241 h 10"/>
+<path d=" M 290 241 h 10"/>
+<path d=" M 352 241 h 10"/>
+<path d=" M 390 241 h 10"/>
+</g>
+<path d=" M 124 284 v 0 a 12 12 0 0 0 12 12 m 492 0 h 40 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="148" x="136" y="285"/>
+<text x="210" y="301">
+CONCATENATE_FUNC</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="294" y="285"/>
+<text x="308" y="301">
+(</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="92" x="332" y="285"/>
+<text x="378" y="301">
+_exp_list</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="434" y="285"/>
+<text x="448" y="301">
+)</text>
+</g>
+<g class="choice">
+<path d=" M 472 296 h 24 m 108 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="108" x="496" y="285"/>
+<text x="550" y="301">
+func_refmod</text>
+</g>
+<path d=" M 472 296 a 12 12 0 0 1 12 12 v 9 m 132 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 484 317 v 0 a 12 12 0 0 0 12 12 m 0 0 h 108 m -51 0 l -5 -5 m 0 10 l 5 -5 m 51 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 284 296 h 10"/>
+<path d=" M 322 296 h 10"/>
+<path d=" M 424 296 h 10"/>
+<path d=" M 462 296 h 10"/>
+</g>
+<path d=" M 124 339 v 0 a 12 12 0 0 0 12 12 m 484 0 h 48 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="140" x="136" y="340"/>
+<text x="206" y="356">
+SUBSTITUTE_FUNC</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="286" y="340"/>
+<text x="300" y="356">
+(</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="92" x="324" y="340"/>
+<text x="370" y="356">
+_exp_list</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="426" y="340"/>
+<text x="440" y="356">
+)</text>
+</g>
+<g class="choice">
+<path d=" M 464 351 h 24 m 108 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="108" x="488" y="340"/>
+<text x="542" y="356">
+func_refmod</text>
+</g>
+<path d=" M 464 351 a 12 12 0 0 1 12 12 v 9 m 132 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 476 372 v 0 a 12 12 0 0 0 12 12 m 0 0 h 108 m -51 0 l -5 -5 m 0 10 l 5 -5 m 51 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 276 351 h 10"/>
+<path d=" M 314 351 h 10"/>
+<path d=" M 416 351 h 10"/>
+<path d=" M 454 351 h 10"/>
+</g>
+<path d=" M 124 394 v 0 a 12 12 0 0 0 12 12 m 532 0 h 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="188" x="136" y="395"/>
+<text x="230" y="411">
+SUBSTITUTE_CASE_FUNC</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="334" y="395"/>
+<text x="348" y="411">
+(</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="92" x="372" y="395"/>
+<text x="418" y="411">
+_exp_list</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="474" y="395"/>
+<text x="488" y="411">
+)</text>
+</g>
+<g class="choice">
+<path d=" M 512 406 h 24 m 108 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="108" x="536" y="395"/>
+<text x="590" y="411">
+func_refmod</text>
+</g>
+<path d=" M 512 406 a 12 12 0 0 1 12 12 v 9 m 132 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 524 427 v 0 a 12 12 0 0 0 12 12 m 0 0 h 108 m -51 0 l -5 -5 m 0 10 l 5 -5 m 51 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 324 406 h 10"/>
+<path d=" M 362 406 h 10"/>
+<path d=" M 464 406 h 10"/>
+<path d=" M 502 406 h 10"/>
+</g>
+<path d=" M 124 449 v 0 a 12 12 0 0 0 12 12 m 476 0 h 56 m -25 0 l -5 -5 m 0 10 l 5 -5 m 25 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="124" x="136" y="450"/>
+<text x="198" y="466">
+TRIM_FUNCTION</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="270" y="450"/>
+<text x="284" y="466">
+(</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="100" x="308" y="450"/>
+<text x="358" y="466">
+_trim_args</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="418" y="450"/>
+<text x="432" y="466">
+)</text>
+</g>
+<g class="choice">
+<path d=" M 456 461 h 24 m 108 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="108" x="480" y="450"/>
+<text x="534" y="466">
+func_refmod</text>
+</g>
+<path d=" M 456 461 a 12 12 0 0 1 12 12 v 9 m 132 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 468 482 v 0 a 12 12 0 0 0 12 12 m 0 0 h 108 m -51 0 l -5 -5 m 0 10 l 5 -5 m 51 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 260 461 h 10"/>
+<path d=" M 298 461 h 10"/>
+<path d=" M 408 461 h 10"/>
+<path d=" M 446 461 h 10"/>
+</g>
+<path d=" M 124 504 v 0 a 12 12 0 0 0 12 12 m 326 0 h 206 m -100 0 l -5 -5 m 0 10 l 5 -5 m 100 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="116" x="136" y="505"/>
+<text x="194" y="521">
+NUMVALC_FUNC</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="262" y="505"/>
+<text x="276" y="521">
+(</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="124" x="300" y="505"/>
+<text x="362" y="521">
+_numvalc_args</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="434" y="505"/>
+<text x="448" y="521">
+)</text>
+</g>
+<path d=" M 252 516 h 10"/>
+<path d=" M 290 516 h 10"/>
+<path d=" M 424 516 h 10"/>
+</g>
+<path d=" M 124 537 v 0 a 12 12 0 0 0 12 12 m 524 0 h 8 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="132" x="136" y="538"/>
+<text x="202" y="554">
+LOCALE_DT_FUNC</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="278" y="538"/>
+<text x="292" y="554">
+(</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="140" x="316" y="538"/>
+<text x="386" y="554">
+_locale_dt_args</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="466" y="538"/>
+<text x="480" y="554">
+)</text>
+</g>
+<g class="choice">
+<path d=" M 504 549 h 24 m 108 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="108" x="528" y="538"/>
+<text x="582" y="554">
+func_refmod</text>
+</g>
+<path d=" M 504 549 a 12 12 0 0 1 12 12 v 9 m 132 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 516 570 v 0 a 12 12 0 0 0 12 12 m 0 0 h 108 m -51 0 l -5 -5 m 0 10 l 5 -5 m 51 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 268 549 h 10"/>
+<path d=" M 306 549 h 10"/>
+<path d=" M 456 549 h 10"/>
+<path d=" M 494 549 h 10"/>
+</g>
+<path d=" M 124 592 v 0 a 12 12 0 0 0 12 12 m 202 0 h 330 m -162 0 l -5 -5 m 0 10 l 5 -5 m 162 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="52" x="136" y="593"/>
+<text x="162" y="609">
+WORD</text>
+</g>
+<g class="choice">
+<path d=" M 198 604 h 24 m 92 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="92" x="222" y="593"/>
+<text x="268" y="609">
+func_args</text>
+</g>
+<path d=" M 198 604 a 12 12 0 0 1 12 12 v 9 m 116 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 210 625 v 0 a 12 12 0 0 0 12 12 m 0 0 h 92 m -43 0 l -5 -5 m 0 10 l 5 -5 m 43 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 188 604 h 10"/>
+</g>
+</g>
+<path d=" M 102 21 h 10"/>
+</g>
+</svg>

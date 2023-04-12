@@ -1,0 +1,127 @@
+<svg class="railroad" viewBox="0 0 690 164" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+
+    svg.railroad {
+        background-color: hsl(30, 20%, 95%);
+        background-size: 15px 15px;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, .05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 30, 30, .05) 1px, transparent 1px);
+    }
+
+    svg.railroad path {
+        stroke-width: 3px;
+        stroke: black;
+        fill: transparent;
+    }
+
+    svg.railroad .debug {
+        stroke-width: 1px;
+        stroke: red;
+    }
+
+    svg.railroad text {
+        font: 14px monospace;
+        text-anchor: middle;
+    }
+
+    svg.railroad .nonterminal text {
+        font-weight: bold;
+    }
+
+    svg.railroad text.comment {
+        font: italic 12px monospace;
+    }
+
+    svg.railroad rect {
+        stroke-width: 3px;
+        stroke: black;
+        fill:hsl(-290, 70%, 90%);
+    }
+
+    svg.railroad g.labeledbox > rect {
+        stroke-width: 1px;
+        stroke: grey;
+        stroke-dasharray: 5px;
+        fill:rgba(90, 90, 150, .1);
+    }</style>
+<g class="choice">
+<path d=" M 10 21 h 24 m 132 0 h 514 m -254 0 l -5 -5 m 0 10 l 5 -5 m 254 0"/>
+<g class="nonterminal">
+<rect height="22" width="132" x="34" y="10"/>
+<text x="100" y="26">
+constant_entry</text>
+</g>
+<path d=" M 10 21 a 12 12 0 0 1 12 12 v 9 m 646 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 22 42 v 57 m 0 -25 l -5 -5 m 10 0 l -5 5 m 0 25 m 646 0 v -57 m 0 31 l -5 5 m 10 0 l -5 -5 m 0 -31"/>
+<path d=" M 22 42 v 0 a 12 12 0 0 0 12 12 m 622 0 h 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="116" x="34" y="43"/>
+<text x="92" y="59">
+level_number</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="100" x="160" y="43"/>
+<text x="210" y="59">
+entry_name</text>
+</g>
+<g class="repeat">
+<path d=" M 270 54 h 12 m 0 0 h 232 m -113 0 l -5 -5 m 0 10 l 5 -5 m 113 0 m -12 0 a 12 12 0 0 1 12 12 v 0 a 12 12 0 0 1 -12 12 m -220 0 h 0 a 12 12 0 0 1 -12 -12 v 0 a 12 12 0 0 1 12 -12"/>
+<g class="nonterminal">
+<rect height="22" width="220" x="282" y="67"/>
+<text x="392" y="83">
+_data_description_clause</text>
+</g>
+<g/>
+</g>
+<g class="choice">
+<path d=" M 524 54 h 24 m 84 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="84" x="548" y="43"/>
+<text x="590" y="59">
+_LITERAL</text>
+</g>
+<path d=" M 524 54 a 12 12 0 0 1 12 12 v 9 m 108 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 536 75 v 0 a 12 12 0 0 0 12 12 m 0 0 h 84 m -39 0 l -5 -5 m 0 10 l 5 -5 m 39 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 150 54 h 10"/>
+<path d=" M 260 54 h 10"/>
+<path d=" M 514 54 h 10"/>
+</g>
+<path d=" M 22 99 v 0 a 12 12 0 0 0 12 12 m 512 0 h 110 m -52 0 l -5 -5 m 0 10 l 5 -5 m 52 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="116" x="34" y="100"/>
+<text x="92" y="116">
+level_number</text>
+</g>
+<g class="repeat">
+<path d=" M 160 111 h 12 m 220 0 h 12 m -12 0 a 12 12 0 0 1 12 12 v 8 a 12 12 0 0 1 -12 12 m -220 0 h 0 a 12 12 0 0 1 -12 -12 v -8 a 12 12 0 0 1 12 -12"/>
+<g class="nonterminal">
+<rect height="22" width="220" x="172" y="132"/>
+<text x="282" y="148">
+_data_description_clause</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="220" x="172" y="100"/>
+<text x="282" y="116">
+_data_description_clause</text>
+</g>
+</g>
+<g class="choice">
+<path d=" M 414 111 h 24 m 84 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="84" x="438" y="100"/>
+<text x="480" y="116">
+_LITERAL</text>
+</g>
+<path d=" M 414 111 a 12 12 0 0 1 12 12 v 9 m 108 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 426 132 v 0 a 12 12 0 0 0 12 12 m 0 0 h 84 m -39 0 l -5 -5 m 0 10 l 5 -5 m 39 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 150 111 h 10"/>
+<path d=" M 404 111 h 10"/>
+</g>
+</g>
+</svg>

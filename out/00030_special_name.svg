@@ -1,0 +1,125 @@
+<svg class="railroad" viewBox="0 0 304 372" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+
+    svg.railroad {
+        background-color: hsl(30, 20%, 95%);
+        background-size: 15px 15px;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, .05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 30, 30, .05) 1px, transparent 1px);
+    }
+
+    svg.railroad path {
+        stroke-width: 3px;
+        stroke: black;
+        fill: transparent;
+    }
+
+    svg.railroad .debug {
+        stroke-width: 1px;
+        stroke: red;
+    }
+
+    svg.railroad text {
+        font: 14px monospace;
+        text-anchor: middle;
+    }
+
+    svg.railroad .nonterminal text {
+        font-weight: bold;
+    }
+
+    svg.railroad text.comment {
+        font: italic 12px monospace;
+    }
+
+    svg.railroad rect {
+        stroke-width: 3px;
+        stroke: black;
+        fill:hsl(-290, 70%, 90%);
+    }
+
+    svg.railroad g.labeledbox > rect {
+        stroke-width: 1px;
+        stroke: grey;
+        stroke-dasharray: 5px;
+        fill:rgba(90, 90, 150, .1);
+    }</style>
+<g class="choice">
+<path d=" M 10 21 h 24 m 188 0 h 72 m -33 0 l -5 -5 m 0 10 l 5 -5 m 33 0"/>
+<g class="nonterminal">
+<rect height="22" width="188" x="34" y="10"/>
+<text x="128" y="26">
+mnemonic_name_clause</text>
+</g>
+<path d=" M 10 21 a 12 12 0 0 1 12 12 v 9 m 260 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 22 42 v 33 m 260 0 v -33"/>
+<path d=" M 22 75 v 33 m 260 0 v -33"/>
+<path d=" M 22 108 v 33 m 260 0 v -33"/>
+<path d=" M 22 141 v 33 m 260 0 v -33"/>
+<path d=" M 22 174 v 33 m 260 0 v -33"/>
+<path d=" M 22 207 v 33 m 260 0 v -33"/>
+<path d=" M 22 240 v 33 m 260 0 v -33"/>
+<path d=" M 22 273 v 33 m 260 0 v -33"/>
+<path d=" M 22 306 v 33 m 260 0 v -33"/>
+<path d=" M 22 42 v 0 a 12 12 0 0 0 12 12 m 188 0 h 48 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="188" x="34" y="43"/>
+<text x="128" y="59">
+alphabet_name_clause</text>
+</g>
+<path d=" M 22 75 v 0 a 12 12 0 0 0 12 12 m 236 0 h 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="236" x="34" y="76"/>
+<text x="152" y="92">
+symbolic_characters_clause</text>
+</g>
+<path d=" M 22 108 v 0 a 12 12 0 0 0 12 12 m 124 0 h 112 m -53 0 l -5 -5 m 0 10 l 5 -5 m 53 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="124" x="34" y="109"/>
+<text x="96" y="125">
+locale_clause</text>
+</g>
+<path d=" M 22 141 v 0 a 12 12 0 0 0 12 12 m 156 0 h 80 m -37 0 l -5 -5 m 0 10 l 5 -5 m 37 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="156" x="34" y="142"/>
+<text x="112" y="158">
+class_name_clause</text>
+</g>
+<path d=" M 22 174 v 0 a 12 12 0 0 0 12 12 m 188 0 h 48 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="188" x="34" y="175"/>
+<text x="128" y="191">
+currency_sign_clause</text>
+</g>
+<path d=" M 22 207 v 0 a 12 12 0 0 0 12 12 m 188 0 h 48 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="188" x="34" y="208"/>
+<text x="128" y="224">
+decimal_point_clause</text>
+</g>
+<path d=" M 22 240 v 0 a 12 12 0 0 0 12 12 m 124 0 h 112 m -53 0 l -5 -5 m 0 10 l 5 -5 m 53 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="124" x="34" y="241"/>
+<text x="96" y="257">
+cursor_clause</text>
+</g>
+<path d=" M 22 273 v 0 a 12 12 0 0 0 12 12 m 156 0 h 80 m -37 0 l -5 -5 m 0 10 l 5 -5 m 37 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="156" x="34" y="274"/>
+<text x="112" y="290">
+crt_status_clause</text>
+</g>
+<path d=" M 22 306 v 0 a 12 12 0 0 0 12 12 m 132 0 h 104 m -49 0 l -5 -5 m 0 10 l 5 -5 m 49 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="132" x="34" y="307"/>
+<text x="100" y="323">
+screen_control</text>
+</g>
+<path d=" M 22 339 v 0 a 12 12 0 0 0 12 12 m 116 0 h 120 m -57 0 l -5 -5 m 0 10 l 5 -5 m 57 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="116" x="34" y="340"/>
+<text x="92" y="356">
+event_status</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,92 @@
+<svg class="railroad" viewBox="0 0 544 98" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+
+    svg.railroad {
+        background-color: hsl(30, 20%, 95%);
+        background-size: 15px 15px;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, .05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 30, 30, .05) 1px, transparent 1px);
+    }
+
+    svg.railroad path {
+        stroke-width: 3px;
+        stroke: black;
+        fill: transparent;
+    }
+
+    svg.railroad .debug {
+        stroke-width: 1px;
+        stroke: red;
+    }
+
+    svg.railroad text {
+        font: 14px monospace;
+        text-anchor: middle;
+    }
+
+    svg.railroad .nonterminal text {
+        font-weight: bold;
+    }
+
+    svg.railroad text.comment {
+        font: italic 12px monospace;
+    }
+
+    svg.railroad rect {
+        stroke-width: 3px;
+        stroke: black;
+        fill:hsl(-290, 70%, 90%);
+    }
+
+    svg.railroad g.labeledbox > rect {
+        stroke-width: 1px;
+        stroke: grey;
+        stroke-dasharray: 5px;
+        fill:rgba(90, 90, 150, .1);
+    }</style>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="148" x="10" y="10"/>
+<text x="84" y="26">
+_WORKING_STORAGE</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="84" x="168" y="10"/>
+<text x="210" y="26">
+_SECTION</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="262" y="10"/>
+<text x="276" y="26">
+.</text>
+</g>
+<g class="repeat">
+<path d=" M 300 21 h 12 m 0 0 h 222 m -108 0 l -5 -5 m 0 10 l 5 -5 m 108 0 m -12 0 a 12 12 0 0 1 12 12 v 0 a 12 12 0 0 1 -12 12 m -210 0 h 0 a 12 12 0 0 1 -12 -12 v 0 a 12 12 0 0 1 12 -12"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="148" x="312" y="34"/>
+<text x="386" y="50">
+data_description</text>
+</g>
+<g class="repeat">
+<path d=" M 470 45 h 12 m 28 0 h 12 m -12 0 a 12 12 0 0 1 12 12 v 8 a 12 12 0 0 1 -12 12 m -28 0 h 0 a 12 12 0 0 1 -12 -12 v -8 a 12 12 0 0 1 12 -12"/>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="482" y="66"/>
+<text x="496" y="82">
+.</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="482" y="34"/>
+<text x="496" y="50">
+.</text>
+</g>
+</g>
+<path d=" M 460 45 h 10"/>
+</g>
+<g/>
+</g>
+<path d=" M 158 21 h 10"/>
+<path d=" M 252 21 h 10"/>
+<path d=" M 290 21 h 10"/>
+</g>
+</svg>

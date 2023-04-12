@@ -1,0 +1,227 @@
+<svg class="railroad" viewBox="0 0 668 270" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+
+    svg.railroad {
+        background-color: hsl(30, 20%, 95%);
+        background-size: 15px 15px;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, .05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 30, 30, .05) 1px, transparent 1px);
+    }
+
+    svg.railroad path {
+        stroke-width: 3px;
+        stroke: black;
+        fill: transparent;
+    }
+
+    svg.railroad .debug {
+        stroke-width: 1px;
+        stroke: red;
+    }
+
+    svg.railroad text {
+        font: 14px monospace;
+        text-anchor: middle;
+    }
+
+    svg.railroad .nonterminal text {
+        font-weight: bold;
+    }
+
+    svg.railroad text.comment {
+        font: italic 12px monospace;
+    }
+
+    svg.railroad rect {
+        stroke-width: 3px;
+        stroke: black;
+        fill:hsl(-290, 70%, 90%);
+    }
+
+    svg.railroad g.labeledbox > rect {
+        stroke-width: 1px;
+        stroke: grey;
+        stroke-dasharray: 5px;
+        fill:rgba(90, 90, 150, .1);
+    }</style>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="36" x="10" y="10"/>
+<text x="28" y="26">
+_x</text>
+</g>
+<g class="choice">
+<path d=" M 56 21 h 24 m 210 0 h 368 m -181 0 l -5 -5 m 0 10 l 5 -5 m 181 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="60" x="80" y="10"/>
+<text x="110" y="26">
+_INTO</text>
+</g>
+<g class="repeat">
+<path d=" M 150 21 h 12 m 116 0 h 12 m -12 0 a 12 12 0 0 1 12 12 v 8 a 12 12 0 0 1 -12 12 m -116 0 h 0 a 12 12 0 0 1 -12 -12 v -8 a 12 12 0 0 1 12 -12"/>
+<g class="nonterminal">
+<rect height="22" width="116" x="162" y="42"/>
+<text x="220" y="58">
+arithmetic_x</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="116" x="162" y="10"/>
+<text x="220" y="26">
+arithmetic_x</text>
+</g>
+</g>
+<path d=" M 140 21 h 10"/>
+</g>
+<path d=" M 56 21 a 12 12 0 0 1 12 12 v 41 m 578 0 v -41 a 12 12 0 0 1 12 -12"/>
+<path d=" M 68 74 v 65 m 0 -29 l -5 -5 m 10 0 l -5 5 m 0 29 m 578 0 v -65 m 0 35 l -5 5 m 10 0 l -5 -5 m 0 -35"/>
+<path d=" M 68 139 v 65 m 0 -29 l -5 -5 m 10 0 l -5 5 m 0 29 m 578 0 v -65 m 0 35 l -5 5 m 10 0 l -5 -5 m 0 -35"/>
+<path d=" M 68 204 v 33 m 578 0 v -33"/>
+<path d=" M 68 74 v 0 a 12 12 0 0 0 12 12 m 342 0 h 212 m -103 0 l -5 -5 m 0 10 l 5 -5 m 103 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="60" x="80" y="75"/>
+<text x="110" y="91">
+_INTO</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="36" x="150" y="75"/>
+<text x="168" y="91">
+_x</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="76" x="196" y="75"/>
+<text x="234" y="91">
+_GIVING</text>
+</g>
+<g class="repeat">
+<path d=" M 282 86 h 12 m 116 0 h 12 m -12 0 a 12 12 0 0 1 12 12 v 8 a 12 12 0 0 1 -12 12 m -116 0 h 0 a 12 12 0 0 1 -12 -12 v -8 a 12 12 0 0 1 12 -12"/>
+<g class="nonterminal">
+<rect height="22" width="116" x="294" y="107"/>
+<text x="352" y="123">
+arithmetic_x</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="116" x="294" y="75"/>
+<text x="352" y="91">
+arithmetic_x</text>
+</g>
+</g>
+<path d=" M 140 86 h 10"/>
+<path d=" M 186 86 h 10"/>
+<path d=" M 272 86 h 10"/>
+</g>
+<path d=" M 68 139 v 0 a 12 12 0 0 0 12 12 m 326 0 h 228 m -111 0 l -5 -5 m 0 10 l 5 -5 m 111 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="44" x="80" y="140"/>
+<text x="102" y="156">
+_BY</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="36" x="134" y="140"/>
+<text x="152" y="156">
+_x</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="76" x="180" y="140"/>
+<text x="218" y="156">
+_GIVING</text>
+</g>
+<g class="repeat">
+<path d=" M 266 151 h 12 m 116 0 h 12 m -12 0 a 12 12 0 0 1 12 12 v 8 a 12 12 0 0 1 -12 12 m -116 0 h 0 a 12 12 0 0 1 -12 -12 v -8 a 12 12 0 0 1 12 -12"/>
+<g class="nonterminal">
+<rect height="22" width="116" x="278" y="172"/>
+<text x="336" y="188">
+arithmetic_x</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="116" x="278" y="140"/>
+<text x="336" y="156">
+arithmetic_x</text>
+</g>
+</g>
+<path d=" M 124 151 h 10"/>
+<path d=" M 170 151 h 10"/>
+<path d=" M 256 151 h 10"/>
+</g>
+<path d=" M 68 204 v 0 a 12 12 0 0 0 12 12 m 554 0 h 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="60" x="80" y="205"/>
+<text x="110" y="221">
+_INTO</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="36" x="150" y="205"/>
+<text x="168" y="221">
+_x</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="76" x="196" y="205"/>
+<text x="234" y="221">
+_GIVING</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="116" x="282" y="205"/>
+<text x="340" y="221">
+arithmetic_x</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="100" x="408" y="205"/>
+<text x="458" y="221">
+_REMAINDER</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="116" x="518" y="205"/>
+<text x="576" y="221">
+arithmetic_x</text>
+</g>
+<path d=" M 140 216 h 10"/>
+<path d=" M 186 216 h 10"/>
+<path d=" M 272 216 h 10"/>
+<path d=" M 398 216 h 10"/>
+<path d=" M 508 216 h 10"/>
+</g>
+<path d=" M 68 237 v 0 a 12 12 0 0 0 12 12 m 538 0 h 16 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="44" x="80" y="238"/>
+<text x="102" y="254">
+_BY</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="36" x="134" y="238"/>
+<text x="152" y="254">
+_x</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="76" x="180" y="238"/>
+<text x="218" y="254">
+_GIVING</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="116" x="266" y="238"/>
+<text x="324" y="254">
+arithmetic_x</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="100" x="392" y="238"/>
+<text x="442" y="254">
+_REMAINDER</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="116" x="502" y="238"/>
+<text x="560" y="254">
+arithmetic_x</text>
+</g>
+<path d=" M 124 249 h 10"/>
+<path d=" M 170 249 h 10"/>
+<path d=" M 256 249 h 10"/>
+<path d=" M 382 249 h 10"/>
+<path d=" M 492 249 h 10"/>
+</g>
+</g>
+<path d=" M 46 21 h 10"/>
+</g>
+</svg>

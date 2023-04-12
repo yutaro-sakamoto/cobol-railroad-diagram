@@ -1,0 +1,168 @@
+<svg class="railroad" viewBox="0 0 1152 198" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+
+    svg.railroad {
+        background-color: hsl(30, 20%, 95%);
+        background-size: 15px 15px;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, .05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 30, 30, .05) 1px, transparent 1px);
+    }
+
+    svg.railroad path {
+        stroke-width: 3px;
+        stroke: black;
+        fill: transparent;
+    }
+
+    svg.railroad .debug {
+        stroke-width: 1px;
+        stroke: red;
+    }
+
+    svg.railroad text {
+        font: 14px monospace;
+        text-anchor: middle;
+    }
+
+    svg.railroad .nonterminal text {
+        font-weight: bold;
+    }
+
+    svg.railroad text.comment {
+        font: italic 12px monospace;
+    }
+
+    svg.railroad rect {
+        stroke-width: 3px;
+        stroke: black;
+        fill:hsl(-290, 70%, 90%);
+    }
+
+    svg.railroad g.labeledbox > rect {
+        stroke-width: 1px;
+        stroke: grey;
+        stroke-dasharray: 5px;
+        fill:rgba(90, 90, 150, .1);
+    }</style>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="140" x="10" y="10"/>
+<text x="80" y="26">
+_IDENTIFICATION</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="92" x="160" y="10"/>
+<text x="206" y="26">
+_DIVISION</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="262" y="10"/>
+<text x="276" y="26">
+.</text>
+</g>
+<g class="choice">
+<path d=" M 300 21 h 24 m 516 0 h 24"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="108" x="324" y="10"/>
+<text x="378" y="26">
+_PROGRAM_ID</text>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="442" y="10"/>
+<text x="456" y="26">
+.</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="116" x="480" y="10"/>
+<text x="538" y="26">
+program_name</text>
+</g>
+<g class="choice">
+<path d=" M 606 21 h 24 m 148 0 h 24"/>
+<g class="choice">
+<path d=" M 630 21 h 24 m 100 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="100" x="654" y="10"/>
+<text x="704" y="26">
+as_literal</text>
+</g>
+<path d=" M 630 21 a 12 12 0 0 1 12 12 v 9 m 124 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 642 42 v 33 m 124 0 v -33"/>
+<path d=" M 642 42 v 0 a 12 12 0 0 0 12 12 m 100 0 h 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="100" x="654" y="43"/>
+<text x="704" y="59">
+is_initial</text>
+</g>
+<path d=" M 642 75 v 0 a 12 12 0 0 0 12 12 m 92 0 h 8 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="92" x="654" y="76"/>
+<text x="700" y="92">
+is_common</text>
+</g>
+</g>
+<path d=" M 606 21 a 12 12 0 0 1 12 12 v 75 m 0 -34 l -5 -5 m 10 0 l -5 5 m 0 34 m 172 0 v -75 m 0 40 l -5 5 m 10 0 l -5 -5 m 0 -40 a 12 12 0 0 1 12 -12"/>
+<path d=" M 618 108 v 0 a 12 12 0 0 0 12 12 m 0 0 h 148 m -71 0 l -5 -5 m 0 10 l 5 -5 m 71 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<g class="terminal">
+<rect height="22" rx="10" ry="10" width="28" x="812" y="10"/>
+<text x="826" y="26">
+.</text>
+</g>
+<path d=" M 432 21 h 10"/>
+<path d=" M 470 21 h 10"/>
+<path d=" M 596 21 h 10"/>
+<path d=" M 802 21 h 10"/>
+</g>
+<path d=" M 300 21 a 12 12 0 0 1 12 12 v 97 m 0 -45 l -5 -5 m 10 0 l -5 5 m 0 45 m 540 0 v -97 m 0 51 l -5 5 m 10 0 l -5 -5 m 0 -51 a 12 12 0 0 1 12 -12"/>
+<path d=" M 312 130 v 0 a 12 12 0 0 0 12 12 m 0 0 h 516 m -255 0 l -5 -5 m 0 10 l 5 -5 m 255 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<g class="repeat">
+<path d=" M 874 21 h 12 m 0 0 h 256 m -125 0 l -5 -5 m 0 10 l 5 -5 m 125 0 m -12 0 a 12 12 0 0 1 12 12 v 0 a 12 12 0 0 1 -12 12 m -244 0 h 0 a 12 12 0 0 1 -12 -12 v 0 a 12 12 0 0 1 12 -12"/>
+<g class="choice">
+<path d=" M 886 45 h 24 m 132 0 h 88 m -47 0 l 5 -5 m 0 10 l -5 -5 m 47 0"/>
+<g class="nonterminal">
+<rect height="22" width="132" x="910" y="34"/>
+<text x="976" y="50">
+author_section</text>
+</g>
+<path d=" M 886 45 a 12 12 0 0 1 12 12 v 9 m 220 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 898 66 v 33 m 220 0 v -33"/>
+<path d=" M 898 99 v 33 m 220 0 v -33"/>
+<path d=" M 898 132 v 33 m 220 0 v -33"/>
+<path d=" M 898 66 v 0 a 12 12 0 0 0 12 12 m 188 0 h 8 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="188" x="910" y="67"/>
+<text x="1004" y="83">
+installation_section</text>
+</g>
+<path d=" M 898 99 v 0 a 12 12 0 0 0 12 12 m 188 0 h 8 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="188" x="910" y="100"/>
+<text x="1004" y="116">
+date_written_section</text>
+</g>
+<path d=" M 898 132 v 0 a 12 12 0 0 0 12 12 m 196 0 h 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="196" x="910" y="133"/>
+<text x="1008" y="149">
+date_compiled_section</text>
+</g>
+<path d=" M 898 165 v 0 a 12 12 0 0 0 12 12 m 148 0 h 48 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="148" x="910" y="166"/>
+<text x="984" y="182">
+security_section</text>
+</g>
+</g>
+<g/>
+</g>
+<path d=" M 150 21 h 10"/>
+<path d=" M 252 21 h 10"/>
+<path d=" M 290 21 h 10"/>
+<path d=" M 864 21 h 10"/>
+</g>
+</svg>

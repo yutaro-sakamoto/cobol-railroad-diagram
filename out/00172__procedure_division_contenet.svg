@@ -1,0 +1,150 @@
+<svg class="railroad" viewBox="0 0 1330 139" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+
+    svg.railroad {
+        background-color: hsl(30, 20%, 95%);
+        background-size: 15px 15px;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, .05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 30, 30, .05) 1px, transparent 1px);
+    }
+
+    svg.railroad path {
+        stroke-width: 3px;
+        stroke: black;
+        fill: transparent;
+    }
+
+    svg.railroad .debug {
+        stroke-width: 1px;
+        stroke: red;
+    }
+
+    svg.railroad text {
+        font: 14px monospace;
+        text-anchor: middle;
+    }
+
+    svg.railroad .nonterminal text {
+        font-weight: bold;
+    }
+
+    svg.railroad text.comment {
+        font: italic 12px monospace;
+    }
+
+    svg.railroad rect {
+        stroke-width: 3px;
+        stroke: black;
+        fill:hsl(-290, 70%, 90%);
+    }
+
+    svg.railroad g.labeledbox > rect {
+        stroke-width: 1px;
+        stroke: grey;
+        stroke-dasharray: 5px;
+        fill:rgba(90, 90, 150, .1);
+    }</style>
+<g class="choice">
+<path d=" M 10 21 h 24 m 1262 0 h 24"/>
+<g class="sequence">
+<g class="choice">
+<path d=" M 34 21 h 24 m 244 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="244" x="58" y="10"/>
+<text x="180" y="26">
+_procedure_division_headers</text>
+</g>
+<path d=" M 34 21 a 12 12 0 0 1 12 12 v 9 m 268 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 46 42 v 0 a 12 12 0 0 0 12 12 m 0 0 h 244 m -119 0 l -5 -5 m 0 10 l 5 -5 m 119 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<g class="repeat">
+<path d=" M 336 21 h 12 m 0 0 h 654 m -324 0 l -5 -5 m 0 10 l 5 -5 m 324 0 m -12 0 a 12 12 0 0 1 12 12 v 0 a 12 12 0 0 1 -12 12 m -642 0 h 0 a 12 12 0 0 1 -12 -12 v 0 a 12 12 0 0 1 12 -12"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="388" x="348" y="34"/>
+<text x="542" y="50">
+_procedure_division_statements_before_header</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="244" x="746" y="34"/>
+<text x="868" y="50">
+_procedure_division_headers</text>
+</g>
+<path d=" M 736 45 h 10"/>
+</g>
+<g/>
+</g>
+<g class="repeat">
+<path d=" M 1012 21 h 12 m 260 0 h 12 m -12 0 a 12 12 0 0 1 12 12 v 8 a 12 12 0 0 1 -12 12 m -260 0 h 0 a 12 12 0 0 1 -12 -12 v -8 a 12 12 0 0 1 12 -12"/>
+<g class="nonterminal">
+<rect height="22" width="260" x="1024" y="42"/>
+<text x="1154" y="58">
+_procedure_division_statement</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="260" x="1024" y="10"/>
+<text x="1154" y="26">
+_procedure_division_statement</text>
+</g>
+</g>
+<path d=" M 326 21 h 10"/>
+<path d=" M 1002 21 h 10"/>
+</g>
+<path d=" M 10 21 a 12 12 0 0 1 12 12 v 41 m 1286 0 v -41 a 12 12 0 0 1 12 -12"/>
+<path d=" M 22 74 v 0 a 12 12 0 0 0 12 12 m 1262 0 h 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="choice">
+<path d=" M 34 86 h 24 m 244 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="244" x="58" y="75"/>
+<text x="180" y="91">
+_procedure_division_headers</text>
+</g>
+<path d=" M 34 86 a 12 12 0 0 1 12 12 v 9 m 268 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 46 107 v 0 a 12 12 0 0 0 12 12 m 0 0 h 244 m -119 0 l -5 -5 m 0 10 l 5 -5 m 119 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<g class="repeat">
+<path d=" M 336 86 h 12 m 642 0 h 12 m -12 0 a 12 12 0 0 1 12 12 v 8 a 12 12 0 0 1 -12 12 m -642 0 h 0 a 12 12 0 0 1 -12 -12 v -8 a 12 12 0 0 1 12 -12"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="388" x="348" y="107"/>
+<text x="542" y="123">
+_procedure_division_statements_before_header</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="244" x="746" y="107"/>
+<text x="868" y="123">
+_procedure_division_headers</text>
+</g>
+<path d=" M 736 118 h 10"/>
+</g>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="388" x="348" y="75"/>
+<text x="542" y="91">
+_procedure_division_statements_before_header</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="244" x="746" y="75"/>
+<text x="868" y="91">
+_procedure_division_headers</text>
+</g>
+<path d=" M 736 86 h 10"/>
+</g>
+</g>
+<g class="repeat">
+<path d=" M 1012 86 h 12 m 0 0 h 272 m -133 0 l -5 -5 m 0 10 l 5 -5 m 133 0 m -12 0 a 12 12 0 0 1 12 12 v 0 a 12 12 0 0 1 -12 12 m -260 0 h 0 a 12 12 0 0 1 -12 -12 v 0 a 12 12 0 0 1 12 -12"/>
+<g class="nonterminal">
+<rect height="22" width="260" x="1024" y="99"/>
+<text x="1154" y="115">
+_procedure_division_statement</text>
+</g>
+<g/>
+</g>
+<path d=" M 326 86 h 10"/>
+<path d=" M 1002 86 h 10"/>
+</g>
+</g>
+</svg>

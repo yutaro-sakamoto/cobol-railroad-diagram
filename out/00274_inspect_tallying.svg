@@ -1,0 +1,216 @@
+<svg class="railroad" viewBox="0 0 508 492" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+
+    svg.railroad {
+        background-color: hsl(30, 20%, 95%);
+        background-size: 15px 15px;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, .05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 30, 30, .05) 1px, transparent 1px);
+    }
+
+    svg.railroad path {
+        stroke-width: 3px;
+        stroke: black;
+        fill: transparent;
+    }
+
+    svg.railroad .debug {
+        stroke-width: 1px;
+        stroke: red;
+    }
+
+    svg.railroad text {
+        font: 14px monospace;
+        text-anchor: middle;
+    }
+
+    svg.railroad .nonterminal text {
+        font-weight: bold;
+    }
+
+    svg.railroad text.comment {
+        font: italic 12px monospace;
+    }
+
+    svg.railroad rect {
+        stroke-width: 3px;
+        stroke: black;
+        fill:hsl(-290, 70%, 90%);
+    }
+
+    svg.railroad g.labeledbox > rect {
+        stroke-width: 1px;
+        stroke: grey;
+        stroke-dasharray: 5px;
+        fill:rgba(90, 90, 150, .1);
+    }</style>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="92" x="10" y="10"/>
+<text x="56" y="26">
+_TALLYING</text>
+</g>
+<g class="repeat">
+<path d=" M 112 21 h 12 m 362 0 h 12 m -12 0 a 12 12 0 0 1 12 12 v 217 m 0 -105 l -5 -5 m 10 0 l -5 5 m 0 105 a 12 12 0 0 1 -12 12 m -362 0 h 0 a 12 12 0 0 1 -12 -12 v -217 m 0 111 l -5 5 m 10 0 l -5 -5 m 0 -111 a 12 12 0 0 1 12 -12"/>
+<g class="choice">
+<path d=" M 124 262 h 24 m 186 0 h 152 m -79 0 l 5 -5 m 0 10 l -5 -5 m 79 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="124" x="148" y="251"/>
+<text x="210" y="267">
+_simple_value</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="52" x="282" y="251"/>
+<text x="308" y="267">
+_FOR</text>
+</g>
+<path d=" M 272 262 h 10"/>
+</g>
+<path d=" M 124 262 a 12 12 0 0 1 12 12 v 9 m 338 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 136 283 v 55 m 0 -24 l -5 -5 m 10 0 l -5 5 m 0 24 m 338 0 v -55 m 0 30 l -5 5 m 10 0 l -5 -5 m 0 -30"/>
+<path d=" M 136 338 v 33 m 338 0 v -33"/>
+<path d=" M 136 371 v 33 m 338 0 v -33"/>
+<path d=" M 136 404 v 33 m 338 0 v -33"/>
+<path d=" M 136 283 v 0 a 12 12 0 0 0 12 12 m 298 0 h 16 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="108" x="148" y="284"/>
+<text x="202" y="300">
+_CHARACTERS</text>
+</g>
+<g class="choice">
+<path d=" M 266 295 h 24 m 132 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="132" x="290" y="284"/>
+<text x="356" y="300">
+inspect_region</text>
+</g>
+<path d=" M 266 295 a 12 12 0 0 1 12 12 v 9 m 156 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 278 316 v 0 a 12 12 0 0 0 12 12 m 0 0 h 132 m -69 0 l 5 -5 m 0 10 l -5 -5 m 69 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 256 295 h 10"/>
+</g>
+<path d=" M 136 338 v 0 a 12 12 0 0 0 12 12 m 44 0 h 270 m -138 0 l 5 -5 m 0 10 l -5 -5 m 138 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="44" x="148" y="339"/>
+<text x="170" y="355">
+ALL</text>
+</g>
+<path d=" M 136 371 v 0 a 12 12 0 0 0 12 12 m 76 0 h 238 m -122 0 l 5 -5 m 0 10 l -5 -5 m 122 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="76" x="148" y="372"/>
+<text x="186" y="388">
+LEADING</text>
+</g>
+<path d=" M 136 404 v 0 a 12 12 0 0 0 12 12 m 84 0 h 230 m -118 0 l 5 -5 m 0 10 l -5 -5 m 118 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="84" x="148" y="405"/>
+<text x="190" y="421">
+TRAILING</text>
+</g>
+<path d=" M 136 437 v 0 a 12 12 0 0 0 12 12 m 314 0 h 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="124" x="148" y="438"/>
+<text x="210" y="454">
+_simple_value</text>
+</g>
+<g class="choice">
+<path d=" M 282 449 h 24 m 132 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="132" x="306" y="438"/>
+<text x="372" y="454">
+inspect_region</text>
+</g>
+<path d=" M 282 449 a 12 12 0 0 1 12 12 v 9 m 156 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 294 470 v 0 a 12 12 0 0 0 12 12 m 0 0 h 132 m -69 0 l 5 -5 m 0 10 l -5 -5 m 69 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 272 449 h 10"/>
+</g>
+</g>
+<g class="choice">
+<path d=" M 124 21 h 24 m 186 0 h 152 m -73 0 l -5 -5 m 0 10 l 5 -5 m 73 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="124" x="148" y="10"/>
+<text x="210" y="26">
+_simple_value</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="52" x="282" y="10"/>
+<text x="308" y="26">
+_FOR</text>
+</g>
+<path d=" M 272 21 h 10"/>
+</g>
+<path d=" M 124 21 a 12 12 0 0 1 12 12 v 9 m 338 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 136 42 v 55 m 0 -24 l -5 -5 m 10 0 l -5 5 m 0 24 m 338 0 v -55 m 0 30 l -5 5 m 10 0 l -5 -5 m 0 -30"/>
+<path d=" M 136 97 v 33 m 338 0 v -33"/>
+<path d=" M 136 130 v 33 m 338 0 v -33"/>
+<path d=" M 136 163 v 33 m 338 0 v -33"/>
+<path d=" M 136 42 v 0 a 12 12 0 0 0 12 12 m 298 0 h 16 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="108" x="148" y="43"/>
+<text x="202" y="59">
+_CHARACTERS</text>
+</g>
+<g class="choice">
+<path d=" M 266 54 h 24 m 132 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="132" x="290" y="43"/>
+<text x="356" y="59">
+inspect_region</text>
+</g>
+<path d=" M 266 54 a 12 12 0 0 1 12 12 v 9 m 156 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 278 75 v 0 a 12 12 0 0 0 12 12 m 0 0 h 132 m -63 0 l -5 -5 m 0 10 l 5 -5 m 63 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 256 54 h 10"/>
+</g>
+<path d=" M 136 97 v 0 a 12 12 0 0 0 12 12 m 44 0 h 270 m -132 0 l -5 -5 m 0 10 l 5 -5 m 132 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="44" x="148" y="98"/>
+<text x="170" y="114">
+ALL</text>
+</g>
+<path d=" M 136 130 v 0 a 12 12 0 0 0 12 12 m 76 0 h 238 m -116 0 l -5 -5 m 0 10 l 5 -5 m 116 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="76" x="148" y="131"/>
+<text x="186" y="147">
+LEADING</text>
+</g>
+<path d=" M 136 163 v 0 a 12 12 0 0 0 12 12 m 84 0 h 230 m -112 0 l -5 -5 m 0 10 l 5 -5 m 112 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="nonterminal">
+<rect height="22" width="84" x="148" y="164"/>
+<text x="190" y="180">
+TRAILING</text>
+</g>
+<path d=" M 136 196 v 0 a 12 12 0 0 0 12 12 m 314 0 h 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="124" x="148" y="197"/>
+<text x="210" y="213">
+_simple_value</text>
+</g>
+<g class="choice">
+<path d=" M 282 208 h 24 m 132 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="132" x="306" y="197"/>
+<text x="372" y="213">
+inspect_region</text>
+</g>
+<path d=" M 282 208 a 12 12 0 0 1 12 12 v 9 m 156 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 294 229 v 0 a 12 12 0 0 0 12 12 m 0 0 h 132 m -63 0 l -5 -5 m 0 10 l 5 -5 m 63 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<path d=" M 272 208 h 10"/>
+</g>
+</g>
+</g>
+<path d=" M 102 21 h 10"/>
+</g>
+</svg>

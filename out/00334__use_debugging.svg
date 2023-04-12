@@ -1,0 +1,108 @@
+<svg class="railroad" viewBox="0 0 598 75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+
+    svg.railroad {
+        background-color: hsl(30, 20%, 95%);
+        background-size: 15px 15px;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, .05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(30, 30, 30, .05) 1px, transparent 1px);
+    }
+
+    svg.railroad path {
+        stroke-width: 3px;
+        stroke: black;
+        fill: transparent;
+    }
+
+    svg.railroad .debug {
+        stroke-width: 1px;
+        stroke: red;
+    }
+
+    svg.railroad text {
+        font: 14px monospace;
+        text-anchor: middle;
+    }
+
+    svg.railroad .nonterminal text {
+        font-weight: bold;
+    }
+
+    svg.railroad text.comment {
+        font: italic 12px monospace;
+    }
+
+    svg.railroad rect {
+        stroke-width: 3px;
+        stroke: black;
+        fill:hsl(-290, 70%, 90%);
+    }
+
+    svg.railroad g.labeledbox > rect {
+        stroke-width: 1px;
+        stroke: grey;
+        stroke-dasharray: 5px;
+        fill:rgba(90, 90, 150, .1);
+    }</style>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="52" x="10" y="10"/>
+<text x="36" y="26">
+_USE</text>
+</g>
+<g class="choice">
+<path d=" M 72 21 h 24 m 52 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="52" x="96" y="10"/>
+<text x="122" y="26">
+_FOR</text>
+</g>
+<path d=" M 72 21 a 12 12 0 0 1 12 12 v 9 m 76 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 84 42 v 0 a 12 12 0 0 0 12 12 m 0 0 h 52 m -23 0 l -5 -5 m 0 10 l 5 -5 m 23 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<g class="nonterminal">
+<rect height="22" width="100" x="182" y="10"/>
+<text x="232" y="26">
+_DEBUGGING</text>
+</g>
+<g class="choice">
+<path d=" M 292 21 h 24 m 44 0 h 24"/>
+<g class="nonterminal">
+<rect height="22" width="44" x="316" y="10"/>
+<text x="338" y="26">
+_ON</text>
+</g>
+<path d=" M 292 21 a 12 12 0 0 1 12 12 v 9 m 68 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 304 42 v 0 a 12 12 0 0 0 12 12 m 0 0 h 44 a 12 12 0 0 0 12 -12 v 0"/>
+<g/>
+</g>
+<g class="choice">
+<path d=" M 394 21 h 24 m 60 0 h 110 m -52 0 l -5 -5 m 0 10 l 5 -5 m 52 0"/>
+<g class="nonterminal">
+<rect height="22" width="60" x="418" y="10"/>
+<text x="448" y="26">
+label</text>
+</g>
+<path d=" M 394 21 a 12 12 0 0 1 12 12 v 9 m 170 0 v -9 a 12 12 0 0 1 12 -12"/>
+<path d=" M 406 42 v 0 a 12 12 0 0 0 12 12 m 146 0 h 0 a 12 12 0 0 0 12 -12 v 0"/>
+<g class="sequence">
+<g class="nonterminal">
+<rect height="22" width="44" x="418" y="43"/>
+<text x="440" y="59">
+ALL</text>
+</g>
+<g class="nonterminal">
+<rect height="22" width="92" x="472" y="43"/>
+<text x="518" y="59">
+PROCEDURE</text>
+</g>
+<path d=" M 462 54 h 10"/>
+</g>
+</g>
+<path d=" M 62 21 h 10"/>
+<path d=" M 172 21 h 10"/>
+<path d=" M 282 21 h 10"/>
+<path d=" M 384 21 h 10"/>
+</g>
+</svg>
